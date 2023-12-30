@@ -1,0 +1,28 @@
+body {
+  text-align: center;
+}
+
+#calculator {
+  border: 2px solid rgb(216, 212, 212);
+  border-radius: 5px;
+  width: 300px;
+}
+
+#display {
+  margin: 10px;
+  width: 90%;
+  font-size: 45px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.button {
+  width: 70px;
+  height: 70px;
+  margin: 3px;
+  font-size: 30px;
+}
